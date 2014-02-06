@@ -24,15 +24,22 @@
 	
 // };
 
+console.log("Hey beautiful, this is a calculator")
+
+console.log("You can use it by typing: calculator.calculatorFunctions.'your desired function'(a number, another number);")
+
+console.log("oh and there is four functions: add, subtrackt, multiply, divide")
 
 //create the Object calculator
 var calculator = {
+
+	
 
 	//array where the values are pushed to
 	arrOutput : [ 1, 2, 3, 4 ],
 
 	//my four functions, for adding, subtracting, multiplying and dividing
-	CalculatorFunctions : {
+	calculatorFunctions : {
 		//addFunction takes parameters x and y
 		addFunction : function(x, y){
 			calculator.arrOutput.push(this.add(x, y));
