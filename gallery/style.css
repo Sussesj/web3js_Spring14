@@ -1,0 +1,79 @@
+html, body {
+margin:0;
+padding:0;
+}
+
+body {
+	background: #fff;
+  	font-family: 'Quicksand', sans-serif;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 55%;
+}
+
+.mainTitle { 
+	color: blue;
+	font-size: 5em;
+	padding: 2% 0% 3% 0%;
+	border-bottom: solid 1px grey; 
+}
+
+ul.tabs {
+	list-style-type: none; 
+	max-width: 660px; /* for  below IE7 use `width: 660px;` */
+    margin: 0 auto;
+    margin-top: 5%;
+
+}
+
+ul.tabs li {
+	display: inline;
+}
+
+ul.tabs li a {
+	color: #42454a; 
+	background-color: #dedbde; 
+	border: 1px solid #c9c3ba;
+	border-radius: 50%;
+	height: 5px; 
+	border-bottom: none; 
+	padding: 0 .5em 0 .5em; 
+	text-decoration: none;
+	margin-left: 10%;
+
+}
+
+ul.tabs li a:hover {
+	background-color: #f1f0ee;
+}
+
+ul.tabs a.selected {
+	color: #000; 
+	background-color: #f1f0ee; 
+	font-weight: bold; 
+}
+
+div.tabContent {
+	border: .5px solid #c9c3ba; 
+	padding: 2% 2% 3% 2%;  
+	background-color: #f1f0ee;
+	margin: 0 auto;
+}
+
+div.tabContent.hide {
+	display: none;
+}
+
+.bottomTextLeft {
+	width: 45%;
+	float: left;
+	margin-top: 3%;
+	margin-left: 1%;
+}
+
+.bottomTextRight {
+	margin-top: 3%;
+	margin-left: 48%;	
+}

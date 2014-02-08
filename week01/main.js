@@ -36,7 +36,7 @@ var calculator = {
 	
 
 	//array where the values are pushed to
-	arrOutput : [ 1, 2, 3, 4 ],
+	arrOutput : [ ],
 
 	//my four functions, for adding, subtracting, multiplying and dividing
 	calculatorFunctions : {
@@ -79,7 +79,26 @@ var calculator = {
 };
 	
 
+//New calculator - super calculator
 
+// var supercalculator = {
+// 	result = [],
+// 	calcuate : function(operation) {
+// 		if(operation == 'add') {
+// 			this.result.push(num1 + num2);
+// 			console.log('look ma imma adding');
+// 		} 
+// 		else if (operation == 'divide') {
+// 			console.log('look ma imma divingin');
+// 		}
+// 		else if (operation == 'subtrackt'){
+// 			console.log('look ma imma subtracking');
+// 		}
+// 		else if (operation == 'multiply'){
+// 			console.log('look ma imma multiplyong');
+// 		}
+// 	}
+// }
 
 
 
