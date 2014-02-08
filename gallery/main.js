@@ -1,24 +1,20 @@
 
 //create two arrays to hold the tab link elements and the content divs
-var tabLinks = new Array();
 
+var tabLinks = new Array();
 var contentDivs = new Array();
 
-//init is called when the page loads because init is in the body! 
+//init is called when the page loads
 function init() {
 
       // Grab the tab links and content divs from the page
-
-      var tabListItems = document.getElementByClassName('tabs').childNodes;
+      var tabListItems = document.getElementById('tabs').childNodes;
       for ( var i = 0; i < tabListItems.length; i++ ) {
         if ( tabListItems[i].nodeName == "LI" ) {
-          //creates tabLink, that assignes function getFirstChildWithTagName to it
           var tabLink = getFirstChildWithTagName( tabListItems[i], 'A' );
-          //creates id, that assignes the function getHash to it, so that we can flip between the divs. 
           var id = getHash( tabLink.getAttribute('href') );
-
           tabLinks[id] = tabLink;
-          contentDivs[id] = document.getElementByClassName( id );
+          contentDivs[id] = document.getElementById( id );
         }
       }
 
@@ -63,14 +59,12 @@ function showTab() {
       return false;
     }
 
-//assigned paramenters to the function getFirstChildWithTagName, we use it in the tabListItem
 function getFirstChildWithTagName( element, tagName ) {
       for ( var i = 0; i < element.childNodes.length; i++ ) {
         if ( element.childNodes[i].nodeName == tagName ) return element.childNodes[i];
       }
     }
 
-//takes where ever the # and this to the tabList array! 
 function getHash( url ) {
       var hashPos = url.lastIndexOf ( '#' );
       return url.substring( hashPos + 1 );
