@@ -1,0 +1,45 @@
+html, body {
+margin:0;
+padding:0;
+}
+
+body {
+	background: #fff;
+  	font-family: 'Quicksand', sans-serif;
+}
+
+.sideNav {
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1 { 
+	color: blue;
+	font-size: 5em;
+	padding: 2% 0% 3% 0%;
+	border-bottom: solid 1px grey; 
+}
+
+ul#navTabs {
+	font-size: 1em;
+	list-style: none;
+	display: inline-block;
+}
+
+ul#navTabs li{
+	color: gray;
+}
+
+ul#navTabs li:hover {
+	color: lime;
+}
+
+.navContent {
+	width: 55%;
+	margin: 0 auto;
+	font-size: 0.5em;
+	display: none;
+}
+
+
+

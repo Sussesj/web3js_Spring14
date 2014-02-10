@@ -20,7 +20,7 @@ body {
 	border-bottom: solid 1px grey; 
 }
 
-ul.tabs {
+ul.subTabs {
 	list-style-type: none; 
 	max-width: 660px; /* for  below IE7 use `width: 660px;` */
     margin: 0 auto;
@@ -28,11 +28,11 @@ ul.tabs {
 
 }
 
-ul.tabs li {
+ul.subTabs li {
 	display: inline;
 }
 
-ul.tabs li a {
+ul.subTabs li a {
 	color: #42454a; 
 	background-color: #dedbde; 
 	border: 1px solid #c9c3ba;
@@ -45,11 +45,11 @@ ul.tabs li a {
 
 }
 
-ul.tabs li a:hover {
+ul.subTabs li a:hover {
 	background-color: #f1f0ee;
 }
 
-ul.tabs a.selected {
+ul.subTabs a.selected {
 	color: #000; 
 	background-color: #f1f0ee; 
 	font-weight: bold; 

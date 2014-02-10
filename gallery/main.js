@@ -8,7 +8,7 @@ var contentDivs = new Array();
 function init() {
 
       // Grab the tab links and content divs from the page
-      var tabListItems = document.getElementsByClassName('tabs')[0].childNodes;
+      var tabListItems = document.getElementsByClassName('subTabs')[0].childNodes;
       for ( var i = 0; i < tabListItems.length; i++ ) {
         if ( tabListItems[i].nodeName == "LI" ) {
           var tabLink = getFirstChildWithTagName( tabListItems[i], 'A' );
