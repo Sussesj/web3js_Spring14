@@ -1,4 +1,5 @@
 
+
 //create function w. parameter id
 function toggle_visibility(id) {
   //store navContent in variable theList
