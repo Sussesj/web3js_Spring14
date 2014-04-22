@@ -1,5 +1,5 @@
 
-// //FUNCTION DECLARATION
+// //*****FUNCTION DECLARATION
 // function plus(a,b) {
 // 	//statments goes inside the cury bracets
 // 	var sum = a+b;
@@ -11,7 +11,7 @@
 // plus(2,2);
 
 
-// //ANNONYMOUS FUNCTION
+// //****ANNONYMOUS FUNCTION
 // var plus = function(a,b) {
 // 	return console.log(a+b);
 // };
@@ -23,7 +23,7 @@
 // 	return console.log(a+b);
 // }(2,2);
 
-//METHOD FUNCTION
+//*****METHOD FUNCTION
 // function plus(a,b){
 // 	//use the retunr method as a function
 // 	return (
@@ -45,19 +45,19 @@
 // 			]
 // };
 
-// var calc = {
-// 	status : 'Awesome',
-// 	plus: function (a,b){
-// 		return (
-// 			console.log(this),
-// 			console.log(a+b),
-// 			console.log(arguments),
-// 			console.log(this.status) //this attribute get's the value of the object!
-// 		)
-// 	}
-// }
+var calc = {
+	status : 'Awesome',
+	plus: function (a,b){
+		return (
+			console.log(this),
+			console.log(a+b),
+			console.log(arguments),
+			console.log(this.status) //this attribute get's the value of the object!
+		)
+	}
+}
 
-// calc.plus(2,2); //invoking the function with . notation
+calc.plus(2,2); //invoking the function with . notation
 
 // //CONSTRUCTOR
 // //the constructor should be capitalised
@@ -163,6 +163,8 @@ var ray = (function() {
 	};
 
 })();
+
+//
 
 
 

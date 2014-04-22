@@ -9,11 +9,11 @@ var socialMedia = {
 
 //create a self executing function
 var social = function() {
-	var output = '<ul>',
-	myList = document.querySelectorAll('.socialmediaicons');
+	var output = '<ul>', //outputs the code
+	myList = document.querySelectorAll('.socialmediaicons'); //point the the class social mediaicons
 
-	for( var key in arguments[0]) {
-		output += '<li><a href="' + socialMedia[key] + ' ">' +
+	for( var key in arguments[0]) { //
+		output += '<li><a href="' + socialMedia[key] + ' ">' + //assign the object name to the key value
 		'<img src="images/' + key + '.png" alt = "icon for ' + key +' ">' +
 		'</a></li>';
 	}
@@ -24,4 +24,4 @@ var social = function() {
 		myList[i].innerHTML = output;
 	};
 
-}(socialMedia);
+}(socialMedia); //call the function automatically with the social media object
