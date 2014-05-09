@@ -1,0 +1,188 @@
+html {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+* {
+	outline: none;
+}
+body {
+	background: #fff;
+	font-family: Helvetica, Arial, 'sans-serif';
+	font-size: 16px;
+	position: relative;
+}
+.write {
+	margin-left: 70%;
+	position: fixed;
+	width: 30%;
+	height: 680px;
+	background: #F2F2F2;
+}
+.write-exp-form {
+	width: 90%;
+	margin: 10px 10% 0 10%;
+	float: left;
+}
+.write-exp {
+	width: 85%;
+	height: 250px;
+	margin: 5% 5% 0 0;
+	background-color: white;
+	border: none;
+	outline: none;
+	font-size: 1em;
+	float: left;
+}
+.submit-exp {
+	width: 20%;
+	height: 50px;
+	background: transparent;
+	margin: 0;
+	border: 1px solid black;
+	font-size: 2em;
+}
+.read{
+	width: 100%;
+	float: left;
+	margin-top: 200px;
+}
+.experience {
+	width: 50%;
+	margin: 20px 10% 0 10%;
+}
+.exp {
+	float: left;
+	width: 60%;
+	border: 2px solid black;
+	border-radius: 50%;
+	padding: 0 0 0 20px;
+	margin: 0 0;
+	-webkit-transition: all 100ms ease-in;
+	-moz-transition: all 100ms ease-in;
+	-ms-transition: all 100ms ease-in;
+	-o-transition: all 100ms ease-in;
+	transition: all 100ms ease-in;
+	animation: fadein 1s;
+	-moz-animation: fadein 1s;
+	-webkit-animation: fadein 1s;
+	-o-animation: fadein 1s;
+}
+.exp p {
+	line-height: 1.5;
+	margin: 15px 5% 15px 0;
+	float: left;
+	width: 85%;
+
+}
+.exp:hover {
+	border-radius: 0;
+}
+.exp:hover .actions {
+	color: rgba(200,200,200,1);	
+}
+.actions {
+	float: left;
+	width: 10%;
+	font-size: 2em;
+	text-align: center;
+	color: rgba(0,0,0,0);
+	-webkit-transition: all 100ms ease-in;
+	-moz-transition: all 100ms ease-in;
+	-ms-transition: all 100ms ease-in;
+	-o-transition: all 100ms ease-in;
+	transition: all 100ms ease-in;
+}
+.actions li {
+	margin: 10px 0;
+	-webkit-transition: all 100ms ease-in;
+	-moz-transition: all 100ms ease-in;
+	-ms-transition: all 100ms ease-in;
+	-o-transition: all 100ms ease-in;
+	transition: all 100ms ease-in;
+	cursor: pointer;
+}
+.actions li:hover {
+	color: rgba(0,0,0,1);	
+}
+.liked {
+	color: rgba(255,0,100,1);
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.no-experience-found {
+	color: rgba(0,0,0,1);
+	animation: fadein 1s;
+	-moz-animation: fadein 1s;
+	-webkit-animation: fadein 1s;
+	-o-animation: fadein 1s;
+	margin-top: 100px;
+	font-size: 2em;
+	text-align: center;
+}
+.hidden {
+	display: none;
+}
+.status {
+	background: rgba(0,200,80, 1);
+	padding: 5px;
+	color: white;
+	font-size: 80%;
+	position: fixed;
+	z-index: 100;
+	top: 5px;
+	left: 5px;
+
+}
+
+
+
