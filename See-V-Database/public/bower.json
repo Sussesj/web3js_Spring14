@@ -1,0 +1,21 @@
+{
+  "name": "shape of experience",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Sussesj/web3js_Spring14",
+  "authors": [
+    "sussesj <sussesj@gmail.com>"
+  ],
+  "description": "resume app",
+  "keywords": [
+    "resume"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
